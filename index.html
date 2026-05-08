@@ -1,61 +1,207 @@
-```html id="primerrepo"
+```html id="mercadopago"
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página</title>
+    <title>Mercado Pago Store</title>
 </head>
 
 <body>
 
+    <!-- ENCABEZADO -->
     <header>
-        <h1>Mi Primera Página Web</h1>
+
+        <div>
+            <h1>Mercado Pago Store</h1>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Buscar productos...">
+            <button type="submit">Buscar</button>
+        </form>
 
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Ayuda</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
 
+        <!-- PRESENTACIÓN DEL PRODUCTO -->
         <section>
-
-            <h2>Bienvenidos</h2>
-
-            <p>
-                Esta es mi primera página web creada con HTML.
-            </p>
-
-            <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
-            alt="Computadora con código"
-            width="500">
-
-        </section>
-
-        <section>
-
-            <h2>Mis Productos</h2>
 
             <article>
 
-                <h3>Notebook Gamer</h3>
+                <p>Nuevo | Más vendido</p>
 
-                <p>Potente notebook para gaming y estudio.</p>
+                <h2>Notebook Lenovo IdeaPad Gaming 3</h2>
+
+                <figure>
+
+                    <img
+                    src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop"
+                    alt="Notebook Lenovo IdeaPad Gaming 3"
+                    width="400">
+
+                    <figcaption>
+                        Notebook Lenovo IdeaPad Gaming 3 color negro
+                    </figcaption>
+
+                </figure>
+
+            </article>
+
+        </section>
+
+        <!-- MÓDULO DE COMPRA -->
+        <aside>
+
+            <section>
+
+                <p><del>$1.850.000</del></p>
+
+                <h3>$1.499.999</h3>
+
+                <p>19% OFF</p>
+
+                <p>
+                    Hasta 12 cuotas sin interés de
+                    $124.999
+                </p>
+
+                <button>Comprar ahora</button>
+
+                <button>Agregar al carrito</button>
+
+            </section>
+
+        </aside>
+
+        <!-- FICHA TÉCNICA -->
+        <section>
+
+            <details>
+
+                <summary>Especificaciones técnicas</summary>
+
+                <ul>
+                    <li>Pantalla Full HD de 15.6 pulgadas</li>
+                    <li>Procesador Intel Core i7</li>
+                    <li>16GB de memoria RAM</li>
+                    <li>SSD de 1TB</li>
+                    <li>Placa gráfica RTX 4060</li>
+                    <li>Windows 11</li>
+                </ul>
+
+            </details>
+
+            <article>
+
+                <h3>Descripción del producto</h3>
+
+                <p>
+                    La Lenovo IdeaPad Gaming 3 ofrece un excelente
+                    rendimiento para gaming, estudio y trabajo.
+                    Gracias a su potente procesador y placa gráfica,
+                    permite ejecutar juegos y programas exigentes
+                    con máxima fluidez.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- OPINIONES -->
+        <section>
+
+            <h3>Opiniones de usuarios</h3>
+
+            <article>
+
+                <header>
+
+                    <img
+                    src="https://randomuser.me/api/portraits/men/41.jpg"
+                    alt="Foto de perfil de Tomás García"
+                    width="50">
+
+                    <h4>Tomás García</h4>
+
+                    <time datetime="2026-05-05">
+                        5 de mayo de 2026
+                    </time>
+
+                </header>
+
+                <p>
+                    Excelente notebook. Corre todos los juegos
+                    perfectamente y la batería dura bastante.
+                </p>
 
             </article>
 
             <article>
 
-                <h3>Auriculares Bluetooth</h3>
+                <header>
 
-                <p>Sonido premium y batería de larga duración.</p>
+                    <img
+                    src="https://randomuser.me/api/portraits/women/50.jpg"
+                    alt="Foto de perfil de Camila Díaz"
+                    width="50">
+
+                    <h4>Camila Díaz</h4>
+
+                    <time datetime="2026-05-01">
+                        1 de mayo de 2026
+                    </time>
+
+                </header>
+
+                <p>
+                    Muy rápida y cómoda para estudiar y editar
+                    videos. La recomiendo muchísimo.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- PRODUCTOS RELACIONADOS -->
+        <section>
+
+            <h3>Productos relacionados</h3>
+
+            <article>
+
+                <img
+                src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop"
+                alt="Mouse gamer"
+                width="150">
+
+                <h4>Mouse Gamer RGB</h4>
+
+                <p>$59.999</p>
+
+            </article>
+
+            <article>
+
+                <img
+                src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1200&auto=format&fit=crop"
+                alt="Auriculares gamer"
+                width="150">
+
+                <h4>Auriculares Gamer Pro</h4>
+
+                <p>$89.999</p>
 
             </article>
 
@@ -63,11 +209,52 @@
 
     </main>
 
+    <!-- PIE DE PÁGINA -->
     <footer>
 
-        <p>
-            © 2026 - Mi Primera Página Web
-        </p>
+        <section>
+
+            <h4>Contacto</h4>
+
+            <p>Email: ayuda@mercadopagostore.com</p>
+
+            <p>Teléfono: +54 11 4321-9876</p>
+
+        </section>
+
+        <section>
+
+            <h4>Ayuda</h4>
+
+            <ul>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Cambios y devoluciones</a></li>
+                <li><a href="#">Seguimiento de compras</a></li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h4>Medios de pago</h4>
+
+            <p>
+                Mercado Pago, Visa, Mastercard,
+                American Express y PayPal
+            </p>
+
+        </section>
+
+        <section>
+
+            <h4>Garantía</h4>
+
+            <p>
+                Todos los productos cuentan con
+                garantía oficial de 12 meses.
+            </p>
+
+        </section>
 
     </footer>
 
